@@ -1,0 +1,21 @@
+{
+    "name": "jmsr/momo-handler",
+    "description": "A provider to handler the Momo system for microservices",
+    "type": "library",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "MomoHandler\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jose Miguel Sanchez Ruiz",
+            "email": "me@josemisr.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
